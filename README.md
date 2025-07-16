@@ -24,14 +24,14 @@ Este proyecto consiste en una aplicación web que permite consultar si una fecha
 
 ## 🚀 Cómo ejecutar
 
-1. Clona este repositorio.
-2. Ejecuta el backend con Spring Boot (`localhost:8080`).
-3. Inicia el frontend con Angular (`ng serve`).
-4. Accede a `http://localhost:4200`.
+1. Clonar este repositorio.
+2. Ejecutar el backend con Spring Boot (`localhost:8080`).
+3. Iniciar el frontend con Angular (`ng serve`).
+4. Acceder a `http://localhost:4200`.
 
 ---
 
 ## 📷 Captura de pantalla
 
-![Captura](src/assets/udea.png)
+![Captura del funcionamiento](src/assets/Prueba.png)
 
