@@ -1,0 +1,37 @@
+<div style="background-color: black; color: white; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: Arial, sans-serif; text-align: center; padding: 2rem;">
+
+ 
+  <img src="assets/udea.png" alt="Logo UdeA" style="width: 150px; margin-bottom: 1rem;" />
+
+
+  <h1>Consultar si una fecha es festiva</h1>
+  <p style="font-size: 1.1rem;">Dale doble clic al botón verificar para comprobar una fecha</p>
+
+  
+  <div style="margin: 1rem 0;">
+    <input type="date" [(ngModel)]="fechaSeleccionada" style="padding: 0.5rem; font-size: 1rem;" />
+    <button (click)="verificarFecha()" style="padding: 0.5rem 1rem; margin-left: 0.5rem; font-size: 1rem; background-color: white; color: black; border: none; cursor: pointer;">
+      Verificar
+    </button>
+  </div>
+
+  
+  <div *ngIf="resultado" style="margin-top: 2rem;">
+    <p><strong>Mensaje:</strong> {{ resultado.mensaje }}</p>
+    <p *ngIf="resultado.nombre"><strong>Nombre:</strong> {{ resultado.nombre }}</p>
+    <p *ngIf="resultado.tipo"><strong>Tipo:</strong> {{ resultado.tipo }}</p>
+    <p *ngIf="resultado.fecha"><strong>Fecha:</strong> {{ resultado.fecha }}</p>
+  </div>
+
+ 
+  <footer style="margin-top: 3rem; font-size: 0.95rem; border-top: 1px solid white; padding-top: 1rem;">
+    <p><strong>Presentado por:</strong></p>
+    <p>Max Daniel Pérez Quintero</p>
+    <p>Samuel Velasquez Berrio</p>
+    <br />
+    <p><strong>Profesor:</strong></p>
+    <p>Fray León Osorio Rivera</p>
+    <br /><br />
+    <p style="font-size: 1.5rem;"><strong>Entrega Final Técnicas de Programación y Laboratorio</strong></p>
+  </footer>
+</div>
