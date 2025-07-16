@@ -4,7 +4,7 @@ Este proyecto consiste en una aplicación web que permite consultar si una fecha
 
 ---
 
-## ✅ Funcionalidades
+## Funcionalidades
 
 - Selección de una fecha mediante calendario interactivo.
 - Consulta en tiempo real al backend.
@@ -13,7 +13,7 @@ Este proyecto consiste en una aplicación web que permite consultar si una fecha
 
 ---
 
-## 👨‍💻 Presentado por:
+## Presentado por:
 
 - Max Daniel Pérez Quintero  
 - Samuel Velasquez Berrio  
@@ -22,7 +22,7 @@ Este proyecto consiste en una aplicación web que permite consultar si una fecha
 
 ---
 
-## 🚀 Cómo ejecutar
+## Cómo ejecutar
 
 1. Clonar este repositorio.
 2. Ejecutar el backend con Spring Boot (`localhost:8080`).
@@ -31,7 +31,7 @@ Este proyecto consiste en una aplicación web que permite consultar si una fecha
 
 ---
 
-## 📷 Captura de pantalla
+## Captura de pantalla
 
 ![Captura del funcionamiento](src/assets/Prueba.png)
 
